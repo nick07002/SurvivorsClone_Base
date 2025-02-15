@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdmlicibipcbs"]
+
+[ext_resource type="Script" path="res://Player/player.gd" id="1_vq8tu"]
+[ext_resource type="Texture2D" uid="uid://8dvkl0p6ehr1" path="res://Textures/Player/purpleWizard.png" id="2_5dmib"]
+
+[node name="Player" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_vq8tu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 1
+texture = ExtResource("2_5dmib")
